@@ -59,8 +59,12 @@ body {
   height: 20px;
 }
 
-.movie-panel-image {
+.panel .img-text {
   float: left;
+  width: 200px;
+}
+
+#movie-panel-image {
   width: 200px;
 }
 
@@ -74,4 +78,21 @@ body {
 
 .panel .panel-text {
   width: 500px;
+}
+
+.img-text-text {
+  margin-top: 5px;
+}
+
+.label-metacritic-good {
+  background-color: #00cc00;
+}
+
+.label-metacritic-bad {
+  background-color: #ff1a1a;
+}
+
+.label-metacritic-medium {
+  background-color: #ffdb4d;
+  color: #0f0f0f;
 }
