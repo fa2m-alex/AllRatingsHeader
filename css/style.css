@@ -5,21 +5,20 @@ body {
 
 .navbar-header {
   height: 150px;
-  float: left;
+  //float: left;
   width: 100%;
 }
 
-.navbar-brand {
+/*.navbar-brand {
   text-align: center;
-}
+}*/
 
 #logo-img {
   width: 120px;
   height: 120px;
 }
 
-.navbar-header .navbar-form {
-  float: none;
+.navbar-form {
   text-align: center;
 }
 
@@ -69,7 +68,8 @@ body {
 }
 
 .panel .panel-heading {
-  background-color: #e6e6e6;
+  background-color: #00004d;
+  color: white;
 }
 
 .panel-heading h3 {
@@ -81,8 +81,10 @@ body {
 }
 
 .img-text-text {
-  margin-top: 5px;
+  margin-top: 10px;
 }
+
+
 
 .label-metacritic-good {
   background-color: #00cc00;
@@ -96,3 +98,19 @@ body {
   background-color: #ffdb4d;
   color: #0f0f0f;
 }
+
+a:link {
+  text-decoration:none;
+}
+
+a:visited {
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration:none;
+}
+
+
+
+
